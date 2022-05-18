@@ -1,0 +1,61 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 330.20px;
+    width: 88%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.499);
+    padding: 2.5rem 1.5rem;
+    border-radius: 10px;
+}
+
+.select {
+    border-radius: 15px;
+}
+
+.select + .select {
+    margin-top: 1rem;
+}
+
+.add-expense-btn {
+    align-self: flex-start;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-amount + .input-amount {
+    margin-top: 0.6rem;
+}
+
+.submit-btn {
+    color: rgb(255, 255, 255);
+    border: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 60%;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 3.5px;
+    font-weight: 600;
+    background-color: rgba(71, 203, 71, 0.837);
+    box-shadow: 0 10px 5px -4px rgb(51, 114, 51);
+    cursor: pointer;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: rgba(79, 230, 79, 0.837);
+}
+
+.ant-input-affix-wrapper {
+    font-size: 18px;
+}
+
+.ant-input-suffix {
+    color: red;
+}
