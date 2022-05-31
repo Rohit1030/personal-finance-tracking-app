@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Rohit1030.github.io/personal-finance-tracking-app",
   "name": "personal-finance-tracking-app",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +12,7 @@
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.3",
     "antd": "^4.20.4",
+    "gh-pages": "^3.2.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
@@ -22,8 +22,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
