@@ -156,12 +156,15 @@ export default function DataEntry(){
             const db = request.result;
             const transaction = db.transaction('expenses', 'readwrite');
             const store = transaction.objectStore('expenses');
+            const totalAmount = data.amounts.reduce(function(total, num){
+                return total + num;
+            }, 0)
             store.put({
                 id: data.id,
                 month: data.month,
                 date: data.date,
                 type: data.type,
-                amounts: data.amounts,
+                amount: totalAmount
             });
             const nextValue = data.id + 1;
             localStorage.setItem('index', JSON.stringify(nextValue));

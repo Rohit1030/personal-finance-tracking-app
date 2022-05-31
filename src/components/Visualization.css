@@ -1,0 +1,24 @@
+.ant-btn {
+    font-size: 11.5px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+}
+
+.option-n-btn {
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.recharts-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.visualization-select {
+    width: 57%;
+}
